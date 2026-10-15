@@ -1,7 +1,8 @@
 from maps.GakushokuSample import GakushokuSample
-
+from maps.takeda import takeda
 # ↓のリストには、メンバーの各オススメ学食が格納されます。
-data = [GakushokuSample(), ] 
+data = [GakushokuSample(),
+        takeda(), ] 
 
 for rank, d in enumerate(data, start=1):
     print(f"{rank}位: {d.get_menu()}")
