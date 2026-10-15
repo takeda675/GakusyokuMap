@@ -6,7 +6,7 @@ class OmuraOsusume(AbstractGakushoku):
         return "愛和食堂の日替わりランチ"
 
     def get_summary(self):
-        return "オススメのポイントやなぜオススメできるかなど、簡単に書きます"
+        return "メニューが日替わりで飽きない。"
 
     def get_author(self):
-        return "書いた人の名前を書きます"
+        return "大村"
