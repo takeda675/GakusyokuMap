@@ -3,10 +3,10 @@ from maps.AbstractGakushoku import AbstractGakushoku
 class takeda(AbstractGakushoku):
 
     def get_menu(self):
-        return "オススメの学食メニューをここに書きます"
+        return "とり天"
 
     def get_summary(self):
-        return "オススメのポイントやなぜオススメできるかなど、簡単に書きます"
+        return "美味しい"
 
     def get_author(self):
-        return "書いた人の名前を書きます"
+        return "武田"
